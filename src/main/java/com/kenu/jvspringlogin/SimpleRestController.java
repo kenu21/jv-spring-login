@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class RootController {
+public class SimpleRestController {
 
     @GetMapping("/")
     public String home() {
-        return "Root page";
+        return "Rest controller";
     }
 }
